@@ -1,9 +1,10 @@
 # Weekly Digest CLI
 
-CLI tool to generate a digest of all activities of a given Github repository.
+CLI tool to generate a digest of all activities of a given Opne Source project/repository.
 
 Uses and inspired by initial GSoC work https://github.com/probot/weekly-digest
 
+[Example of the report](https://gist.github.com/bzz/b9afb24f49e723a91ccde8d4f12c489d).
 
 ## Run
 
