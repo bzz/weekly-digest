@@ -1,0 +1,27 @@
+{
+  "name": "weekly-digest-cli",
+  "version": "0.0.1",
+  "description": "Github weekly-digest CLI",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --outDir bin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/bzz/weekly-digers-cli"
+  },
+  "author": "Alexander Bezzubov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "typescript": "^3.1.3"
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.13.1",
+    "@types/bunyan": "^1.8.5",
+    "moment": "^2.22.2",
+    "probot": "^7.2.0",
+    "weekly-digest": "github:probot/weekly-digest"
+  }
+}
