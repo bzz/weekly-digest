@@ -20,7 +20,7 @@
   "dependencies": {
     "@octokit/rest": "^15.13.1",
     "@types/bunyan": "^1.8.5",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "probot": "^7.2.0",
     "weekly-digest": "github:probot/weekly-digest"
   }
